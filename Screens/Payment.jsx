@@ -3,12 +3,18 @@ import React from 'react'
 
 const Payment = () => {
   return (
-    <View>
-      <Text>Payment</Text>
+    <View style={styles.Container}>
+      
     </View>
   )
 }
 
 export default Payment
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  Container:{
+    backgroundColor:"#2F393D",
+    flex:1,
+    
+  }
+})

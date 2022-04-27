@@ -37,7 +37,7 @@ const Dessert = ({ navigation }) => {
      <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
           <View style={styles.List1}>
         <Image
-          source={require("../Images/breakfast.jpg")}
+          source={require("../Images/Van1.jpeg")}
         //   resizeMode="contain"
           style={{
             marginLeft: 5,
@@ -46,8 +46,8 @@ const Dessert = ({ navigation }) => {
           }}
         />
         <View style={{flexDirection: "column"}}>
-        <Text style={{fontSize: 30, marginLeft: 20, marginTop: 30}}>Tea and Bread</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center"}}>GH$20.00</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color:"white"}}>Vanilla Ice-Cream</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white", fontStyle:"italic",fontStyle:"italic"}}>GH$25.99</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -59,7 +59,7 @@ const Dessert = ({ navigation }) => {
         <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
           <View style={styles.List1}>
         <Image
-          source={require("../Images/koko.jpg")}
+          source={require("../Images/Strawberry.jpg")}
         //   resizeMode="contain"
           style={{
             marginLeft: 5,
@@ -68,8 +68,8 @@ const Dessert = ({ navigation }) => {
           }}
         />
         <View style={{flexDirection: "column"}}>
-        <Text style={{fontSize: 22, marginLeft: 28, marginTop: 30}}>Porriage and Bread</Text>
-        <Text style={{fontSize: 22, marginLeft: 20, textAlign: "center"}}>GH$20.00</Text>
+        <Text style={{fontSize: 20, marginLeft: 28, marginTop: 30,paddingBottom:10, fontStyle:"italic",color:"white"}}>Strawberry Ice-Cream</Text>
+        <Text style={{fontSize: 22, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$30.99</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -81,7 +81,7 @@ const Dessert = ({ navigation }) => {
         <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
           <View style={styles.List1}>
         <Image
-          source={require("../Images/image3.jpeg")}
+          source={require("../Images/sand.jpg")}
         //   resizeMode="contain"
           style={{
             marginLeft: 5,
@@ -90,13 +90,102 @@ const Dessert = ({ navigation }) => {
           }}
         />
         <View style={{flexDirection: "column"}}>
-        <Text style={{fontSize: 20, marginLeft: 15, marginTop: 30}}>Tombrown and Bread</Text>
-        <Text style={{fontSize: 20, marginLeft: 20, textAlign: "center"}}>GH$20.00</Text>
+        <Text style={{fontSize: 25, marginLeft: 15, marginTop: 30, paddingBottom:10, fontStyle:"italic",color:"white"}}>Sandwich</Text>
+        <Text style={{fontSize: 20, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$10.75</Text>
         </View>
       </View>
      </TouchableOpacity>
     );
   }
+
+  function List4() {
+    return (
+     <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
+          <View style={styles.List1}>
+        <Image
+          source={require("../Images/Orange1.jpeg")}
+        //   resizeMode="contain"
+          style={{
+            marginLeft: 5,
+            width: 150,
+            height: 150,
+          }}
+        />
+        <View style={{flexDirection: "column"}}>
+        <Text style={{fontSize: 25, marginLeft: 20, marginTop: 30, paddingBottom:10, fontStyle:"italic", color:"white"}}>Orange Juice</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center", color:"white",fontStyle:"italic"}}>GH$15.99</Text>
+        </View>
+      </View>
+     </TouchableOpacity>
+    );
+  }
+
+  function List5() {
+    return (
+     <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
+          <View style={styles.List1}>
+        <Image
+          source={require("../Images/salad.jpg")}
+        //   resizeMode="contain"
+          style={{
+            marginLeft: 5,
+            width: 150,
+            height: 150,
+          }}
+        />
+        <View style={{flexDirection: "column"}}>
+        <Text style={{fontSize: 25, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color:"white"}}>Salad with Cream </Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center", color:"white",fontStyle:"italic"}}>GH$17.90</Text>
+        </View>
+      </View>
+     </TouchableOpacity>
+    );
+  }
+
+  function List6() {
+    return (
+     <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
+          <View style={styles.List1}>
+        <Image
+          source={require("../Images/ice.jpg")}
+        //   resizeMode="contain"
+          style={{
+            marginLeft: 5,
+            width: 150,
+            height: 150,
+          }}
+        />
+        <View style={{flexDirection: "column"}}>
+        <Text style={{fontSize: 27, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color :"white"}}>Honey Ice-Cream</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$21.90</Text>
+        </View>
+      </View>
+     </TouchableOpacity>
+    );
+  }
+
+  function List7() {
+    return (
+     <TouchableOpacity  onPress={() => navigation.navigate("Payment")}>
+          <View style={styles.List1}>
+        <Image
+          source={require("../Images/Fruit.jpeg")}
+        //   resizeMode="contain"
+          style={{
+            marginLeft: 5,
+            width: 150,
+            height: 150,
+          }}
+        />
+        <View style={{flexDirection: "column"}}>
+        <Text style={{fontSize: 27, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color :"white"}}>Fruit Salad</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$21.90</Text>
+        </View>
+      </View>
+     </TouchableOpacity>
+    );
+  }
+
 
   return (
     <SafeAreaView style={{flex: 1}}>
@@ -105,6 +194,10 @@ const Dessert = ({ navigation }) => {
         {List1()}
         {List2()}
         {List3()}
+        {List4()}
+        {List5()}
+        {List6()}
+        {List7()}
       </ScrollView>
     </SafeAreaView>
   );
@@ -116,10 +209,17 @@ const styles = StyleSheet.create({
   List1: {
     flex: 0.3,
     // borderWidth: 1,
-    borderColor: "black",
-    marginTop: 30,
-    height: 150,
+    borderColor: "red",
+    marginTop: 10,
+    height: 160,
     flexDirection: "row",
+    backgroundColor:"#2F393D",
+    borderRadius:15,
+    paddingTop:5,
+    marginLeft:5,
+    marginRight:5,
+    paddingHorizontal:5,
+    marginBottom:15
   },
 
   List2: {

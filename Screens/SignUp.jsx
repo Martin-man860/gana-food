@@ -133,7 +133,7 @@ const SignUp = ({navigation}) => {
                 height: 30,
                 color: "white",
               }}
-              placeholder="012 345 6789"
+              placeholder=""
               placeholderTextColor={"white"}
               selectionColor={"white"}
             />
