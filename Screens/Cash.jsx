@@ -10,10 +10,10 @@ const Cash = (props) => {
     <View style={styles.Container}>
 
         <View style={styles.Input}>
-           <TextInput style={{color:"white",fontSize:30,marginTop:5}} placeholder="+233"/>         
+           <TextInput style={{color:"white",fontSize:30,marginTop:5}} placeholder="+1"/>         
         </View>
         <View style={styles.input}>
-          <TextInput style={{color:"white",fontSize:20,marginTop:5}} placeholder="Amount (GHS)"/> 
+          <TextInput style={{color:"white",fontSize:20,marginTop:5}} placeholder="Amount (USD)"/> 
         </View>
 
       <View style={{ margin: 15 }}>
@@ -41,7 +41,7 @@ export default Cash
 const styles = StyleSheet.create({
     Container:{
         flex:1,
-        backgroundColor:"white",
+        backgroundColor:"#2F393D",
     },
 
     Input:{
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     borderRadius:15,
     height:50,
     fontSize:50,
-    borderColor: "black",
+    borderColor: "white",
     marginLeft:10,
     marginRight:10
 
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     marginLeft:10,
     marginRight:10,
     height:50,
-    borderColor:"black",
+    borderColor:"white",
     borderRadius:15
     }
 })

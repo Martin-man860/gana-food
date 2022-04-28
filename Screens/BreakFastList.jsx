@@ -47,7 +47,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 20, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color:"white"}}>Tea with Toasted Bread</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white", fontStyle:"italic"}}>GH$20.99</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white", fontStyle:"italic"}}>USD$ 10.99</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -69,7 +69,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 22, marginLeft: 28, marginTop: 30,paddingBottom:10, fontStyle:"italic",color:"white"}}>Porriage with Bofolt</Text>
-        <Text style={{fontSize: 22, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$15.99</Text>
+        <Text style={{fontSize: 22, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>USD$ 10.99</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -91,7 +91,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 20, marginLeft: 15, marginTop: 30, paddingBottom:10, fontStyle:"italic",color:"white"}}>Tombrown with Bread</Text>
-        <Text style={{fontSize: 20, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$10.75</Text>
+        <Text style={{fontSize: 20, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>USD$ 10.75</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -113,7 +113,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 25, marginLeft: 20, marginTop: 30, paddingBottom:10, fontStyle:"italic", color:"white"}}>Oat with Berries</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center", color:"white",fontStyle:"italic"}}>GH$20.00</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center", color:"white",fontStyle:"italic"}}>USD$ 20.00</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -135,7 +135,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 25, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color:"white"}}>Wheat with Bread</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center", color:"white",fontStyle:"italic"}}>GH$17.90</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center", color:"white",fontStyle:"italic"}}>USD $17.90</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -157,7 +157,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 20, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color :"white"}}>Fried Egg with Vegatables</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$21.90</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>USD $10.90</Text>
         </View>
       </View>
      </TouchableOpacity>
@@ -179,7 +179,7 @@ const BreakFastList = ({ navigation }) => {
         />
         <View style={{flexDirection: "column"}}>
         <Text style={{fontSize: 27, marginLeft: 20, marginTop: 30,paddingBottom:10, fontStyle:"italic", color :"white"}}>Millet with Pie</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>GH$21.90</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white",fontStyle:"italic"}}>USD$ 10.90</Text>
         </View>
       </View>
      </TouchableOpacity>

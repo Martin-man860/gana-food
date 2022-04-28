@@ -15,12 +15,12 @@ const Payment = (props) => {
             width: 200,
             height: 200,
             marginTop:50,
-            marginLeft:100
+            alignSelf:"center"
           }}
         />
         <View style={{flexDirection: "column"}}>
-        <Text style={{fontSize: 35, marginLeft: 20, marginTop: 40,paddingBottom:10, fontStyle:"italic", color:"white"}}>Tea with Toasted Bread</Text>
-        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white", fontStyle:"italic"}}>GH$20.99</Text>
+        <Text style={{fontSize: 25, marginLeft: 50, marginTop: 40,paddingBottom:10, fontStyle:"italic", color:"white"}}>Tea with Toasted Bread</Text>
+        <Text style={{fontSize: 25, marginLeft: 20, textAlign: "center",color:"white", fontStyle:"italic"}}>USD$ 10.99</Text>
         </View>
       </View>
      {/* </TouchableOpacity> */}
