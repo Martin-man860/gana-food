@@ -185,7 +185,7 @@ const SignUp = ({navigation}) => {
                     alignItems: 'center',
                     justifyContent: 'center'
                 }}
-                onPress={() => navigation.navigate("LogIn")}
+                onPress={() => navigation.navigate("HomeList")}
             >
                 <Text style={{ color: "white", fontSize: 20}}>Continue</Text>
             </TouchableOpacity>

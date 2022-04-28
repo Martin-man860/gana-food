@@ -9,7 +9,11 @@ import HomeList from "./Screens/HomeList";
 import BreakFastList from "./Screens/BreakFastList";
 import LunchList from "./Screens/LunchList";
 import Dessert from "./Screens/Dessert";
-
+import Cash from "./Screens/Cash";
+import Card from "./Screens/Card";
+import PaymentDone from "./Screens/PaymentDone"
+import Succefull from "./Screens/Succefull";
+import Cancel from "./Screens/Cancel";
 
 import { NavigationContainer } from "@react-navigation/native";
 
@@ -30,6 +34,11 @@ const App = () => {
       <Stack.Screen name="BreakFastList" component={BreakFastList} />
       <Stack.Screen name="LunchList" component={LunchList} />
       <Stack.Screen name="Dessert" component={Dessert} />
+      <Stack.Screen name="Cash" component={Cash}/>
+      <Stack.Screen name="Card" component={Card}/>
+      <Stack.Screen name="PaymentDone" component={PaymentDone}/>
+      <Stack.Screen name="Succefull" component={Succefull}/>
+      <Stack.Screen name="Cancel" component={Cancel}/>
     </Stack.Navigator>
     </NavigationContainer>
   );
